@@ -11,9 +11,16 @@
     }
     .product{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap:20px;
+    }
+    .prouductParent{
+        margin-top: 139px;
+    }
+    .img{
+        width: 20vw;
     }
     .footer{
         flex-direction: column;
@@ -27,7 +34,14 @@
     .card{
         width: 100%;
     }
+    .motion1{
+        display:none;
+    }
     /* .footer-link{
         text-align: center;
     } */
+     .btn{
+        display: flex;
+        flex-direction: column;
+     }
 }

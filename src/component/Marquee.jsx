@@ -6,7 +6,7 @@ function Marquee({imagesurls}) {
   return (
     <div className='flex w-full py-8 gap-20 whitespace-nowrap overflow-x-hidden' >
         {imagesurls.map(url => {
-            return (<img src={url}  className="w-[6vw] flex-shrink-0" />)
+            return (<img src={url}  className="img w-[6vw] flex-shrink-0" />)
         })}
         {/* {imagesurls.map(url => {
             return (<img src={url}  className="w-[6vw] flex-shrink-0" />)
