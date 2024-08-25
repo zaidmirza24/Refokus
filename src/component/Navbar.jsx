@@ -6,7 +6,7 @@ function Navbar() {
         <div className='max-w-screen-xl mx-auto py-6 flex
         justify-between items-center border-b-[1px] border-zinc-600'>
             <div className='flex items-center gap-1 p-2'>
-                <img width='25px' src="./svgs/logoPng.png" alt="error" />
+                <img width='25px' src="./svgs/logoPng.png" alt=" " />
                 <span>Refokus</span>
             </div>
             <div className="links flex gap-14 ml-20 items-center">
