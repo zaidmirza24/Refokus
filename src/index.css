@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media screen and (max-width:500px) {
+
+    .links {
+        display: none;
+    }
+    .product{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    /* .footer-link{
+        text-align: center;
+    } */
+}
